@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+input[type=button]:hover{
+    cursor: pointer;
+}
+nav{
+    background-color: #F8EDE3;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+display: flex;
+flex-direction: column;
+margin: 5px;
+}
+.logo{
+    color: #C5705D;
+}
+span{
+    color: #DFD3C3;
+}
+body{
+background-image: url(./images/5591421.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.menu{
+    margin-right: 30px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.menu-btn{
+    border: none;
+    background: none;
+    font-size: 1.3em;
+    color: #DFD3C3;
+}
+.current{
+    color: #C5705D;
+}
+textarea{
+    background: rgba( 215, 192, 175, 0.5 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 400px;
+width: 700px;
+padding: 10px;
+color: #C5705D;
+}
+.mainarea{
+    display: flex;
+    margin: 30px;
+    gap: 30px;
+}
+.selectarea{
+
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#file{
+    border: none;
+    background-color: #DFD3C3;
+    border-radius: 5px;
+    color: #C5705D;
+    height: 40px;
+    width: 400px;
+}
+input[type=file]::file-selector-button{
+    background-color: #F8EDE3;
+    border: #C5705D;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius: 5px;
+    padding: 13px 10px;
+    color: #C5705D;
+}
+#submit{
+    border: none;
+    background-color: #C5705D;
+    color: #F8EDE3;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btns{
+    display: flex;
+    width: 300px;
+    align-items: center;
+
+}
+.stype{
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+    border: 2px solid #C5705D;
+    color: #C5705D;
+    background-color: #F8EDE3;
+}
+#ex{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#ab{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;  
+}
+.c{
+    color: #F8EDE3;
+    background-color: #C5705D;
+}
+#input{
+    margin-top: 65px;
+}
+
+.menu input[type=submit]:hover{
+    color: #C5705D;
+    text-decoration: underline;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+}

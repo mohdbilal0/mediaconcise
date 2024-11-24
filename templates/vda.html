@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="name">
+            <h1 class="logo">Media<span>C</span>oncise</h1>
+            <p class="logo">Effortless <span>content</span> recaps</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><form action="/yta" method="POST"><input type="submit" value="youtube video" id="yv" class="menu-btn"></form></li>
+                <li><form action="/vda" method="POST"><input type="submit" value="video" id="vd" class="menu-btn current"></form></li>
+                <li><form action="/ima" method="POST"><input type="submit" value="image" id="im" class="menu-btn"></form></li>
+                <li><form action="/txa" method="POST"><input type="submit" value="text" id="tx" class="menu-btn"></form></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="mainarea">
+            <div class="selectarea">
+                <form action="/vdasubmit" enctype="multipart/form-data" method="POST">
+                    <input type="file" name="file" id="file">
+                    <input type="submit" value="submit" id="submit">
+                </form>
+
+            </div>
+            <div class="textarea">
+                <div class="btns">
+                    <form action="/vde" method="POST"><input type="submit" value="extract" id="ex" class="stype"></form>
+                  <form action="/vda" method="POST"><input type="submit" value="abstract" id="ab" class="stype c"></form>
+                </div>
+                
+             <form action="">
+                
+                <textarea name="" id="" >{{summary}}</textarea>
+            </form>   
+            </div>
+            
+        </div>
+        </div>
+        
+    </main>
+</body>
+</html>
